@@ -25,4 +25,4 @@ This is a simple Python script that automates your course registration checkout 
 - Open `script.py` using a text editor and edit line 6-8 with your own myUSC username, email, the term you want to register, and the browser you are using.
 - Open a terminal and change directory into this folder, then type `python script.py` to run the script.
 - Approve the login action on your DUO mobile client.
-- Leave it running to keep monitoring available spots 24/7, or run script just before 9:00 am MWF [when seats of your favorite GE classes will be released](https://dornsife.usc.edu/2015ge/gesm-registration/).
+- Leave it running to keep monitoring available spots 24/7, or run script just before 9:00 am MWF [when seats of your favorite GE classes will be released]([https://dornsife.usc.edu/2015ge/gesm-registration/](https://dornsife.usc.edu/ge/registration/)).
