@@ -27,7 +27,7 @@ wait = WebDriverWait(driver, 180)
 driver.get("https://my.usc.edu")
 wait.until(EC.presence_of_element_located((By.NAME, "j_username"))).send_keys(username)
 wait.until(EC.presence_of_element_located((By.NAME, "j_password"))).send_keys(password)
-driver.find_element(By.CLASS_NAME, "form-button").click()s
+driver.find_element(By.CLASS_NAME, "form-button").click()
 driver.switch_to.frame(driver.find_element(By.ID, "duo_iframe"))
 driver.find_element(By.CLASS_NAME, "push-label").click()
 wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Web Registration"))).click()
