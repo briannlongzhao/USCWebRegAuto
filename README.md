@@ -12,7 +12,7 @@ This is a simple Python script that automates your course registration checkout 
 - [Google Chrome](https://www.google.com/chrome/)
     Or other available browsers listed on [this page](https://chromedriver.storage.googleapis.com/index.html).
 - [Chrome WebDriver](https://chromedriver.chromium.org/)
-    Please select the correct version corresponding to the version of your browser. Also available on [this page](https://chromedriver.storage.googleapis.com/index.html).
+    Please select the correct version corresponding to the version of your browser. Also available on [this page](https://googlechromelabs.github.io/chrome-for-testing/).
     Make sure the path of chromedriver executable is added to the `$PATH` environment variable.
     To test installation, run `chromedriver` in a terminal to see if it can be successfully started.
     For WebDrivers of other browsers, check [this page](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/). 
